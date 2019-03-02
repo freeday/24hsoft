@@ -1,0 +1,57 @@
+.table {
+  display: table;
+  width: 836px;
+  margin: auto;
+  font-family: Arial;
+}
+.table-title {
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  background-color: #f7f7f7;
+}
+.table-title .td {
+  font-weight: bold;
+}
+.table-body {
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+.tr {
+  display: table-row;
+}
+.td {
+  display: table-cell;
+  border: 1px solid #ccc;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+.td-coords {
+  width: 100px;
+}
+.td-speed {
+  width: 80px;
+}
+.td-direction {
+  width: 110px;
+}
+.td-height {
+  width: 100px;
+}
+.td-departure {
+  width: 100px;
+}
+.td-arrival {
+  width: 100px;
+}
+.td-flight {
+  width: 90px;
+}
+.td:first-of-type {
+  text-align: left;
+}
+.table-body .td-coords {
+  width: 80px;
+  padding-left: 30px;
+}
